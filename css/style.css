@@ -49,8 +49,13 @@ nav a:hover {
   z-index: 1;
 
   /*Your code here*/
-  position: 40px;
+  /* position: 40px; */
   /* top: 40px; */
+  /* z-index: 5; */
+  position: relative;
+  top: 40px;
+  /* visibility: hidden; */
+  display: none;
 }
 
 /*Your Code Here*/
