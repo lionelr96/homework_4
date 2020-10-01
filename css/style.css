@@ -49,14 +49,13 @@ nav a:hover {
   z-index: 1;
 
   /*Your code here*/
-  position: relative;
-  bottom: 40px;
+  position: 40px;
+  /* top: 40px; */
 }
 
 /*Your Code Here*/
 /*Write selector/rule property to position the skip class element*/
 .skip a:focus {
-  top: 40px;
   border: 2px solid black;
 }
 
@@ -134,7 +133,7 @@ header p {
   grid-row: 5 / span 1; */ 
   grid-column-start: 2;
   grid-column-end: span 1;
-
+  overflow: hidden;
 
 }
 
@@ -146,6 +145,7 @@ header p {
   grid-column: 1/-1;
   max-height: 700px;
   /* display: none; */
+  overflow: hidden;
 }
 
 .about,
